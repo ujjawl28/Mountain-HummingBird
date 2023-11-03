@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;  
+    background-color: #0C304B;
+    height: 13vh;
+} 
+
+.searchBar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 50%;
+    padding: 5px 10px;
+}
+
+.logo{
+    width: 8%;
+}
+
+.inputBox{
+    width: 90%;
+    border: none;
+    outline: none;
+    
+}
+
+.searchLogo{
+    width: 20px;
+}
+
+.userDetail{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    width: 40%;
+}
+
+.userItem{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.icon{
+    width: 25px;
+    
+}
+
+.userItemText{
+    font-size: 14px;
+    text-wrap: wrap;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #082032;
+    padding: 15px 35px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.contactDetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.phoneIcon{
+    width: 20px;
+}
+
+main{
+    padding: 20px 45px;
+    margin-top: 20px;
+}
+
+.additionalInformation{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.order{
+    width: 380px;
+    height: 28vh;
+    background-color: #196195;
+    background-image: url(./assests/orderImage.png);
+    position: relative;
+}
+
+.createAccount{
+    width:  380px;
+    height: 28vh;
+    background-color: #196195;
+    background-image: url(./assests/createAccount.png);
+    position: relative;
+}
+
+.purchaseList{
+    width: 380px;
+    height: 28vh;
+    background-color: #196195;
+    background-image: url(./assests/purchaseList.png);
+    position: relative;
+}
+
+.orderDiscription{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 55%;
+}
+
+.orderDiscription p{
+   font-size: 12px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+.rightArrow{
+    width: 20px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.categories{
+    margin-top: 30px;
+}
+
+.categoriesHeading{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.categoriesHeading p{
+    color:#196195
+}
+
+.categoriesItemBox {
+    display: grid;
+    gap: 10px; 
+     grid-template-columns: repeat( auto-fit, minmax(220px, 1fr) );
+ }
+
+.categoriesItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px; 
+     padding: 20px 24px 34px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+footer{
+    background-color: #F4F4F5;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     flex-wrap: wrap;
+     padding-bottom: 15px;
+     gap: 25px;
+}
+
+.footerItem{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.subscribeButton{
+    background-color: #196195;
+    padding: 6px 10px;
+    color: white;
+    outline: none;
+    border: none;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+@media screen and (max-width:600px) {
+    
+    
+.icon{
+    width: 16px;
+}
+.userItemText{
+    font-size: 8px;
+    text-wrap: wrap;
+}
+
+.logo{
+    width: 8%;
+}
+
+.contact{
+    font-size: 9px;
+    padding: 10px 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;  
+    background-color: #0C304B;
+    height: 13vh;
+} 
+
+.allProduct{
+    padding: 10px 15px;
+    font-size: 8px;
+}
+.phoneIcon{
+    width: 9px;
+}
+
+.categoriesHeading{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+}
